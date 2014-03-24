@@ -48,7 +48,7 @@ if [[ ! -f $CACHE_DIR/zend-server-6.2-php-5.4-nginx.tar.xz ]]; then
     DONE_MSG
 fi
 
-REPOS_HOST=repos-source.zend.com
+REPOS_HOST=repos.zend.com
 if [[ $ZEND_DEVELOPMENT == 1 ]]; then
     REPOS_HOST=repos-source.zend.com
 fi
